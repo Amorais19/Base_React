@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     border: 0;
     font-family: 'Vollkorn SC', serif;
+    font-size: 40;
     box-sizing: border-box;
   }
 `
