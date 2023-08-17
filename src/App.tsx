@@ -1,9 +1,14 @@
+import { GlobalStyle } from "./styles/GlobalStyle";
+import { RouteSoftware } from "./routes"
+import { BrowserRouter } from "react-router-dom"
 
-function App() {
-
+export function App() {
   return (
-    <p> OI </p>
+    <>
+      <BrowserRouter>
+        <GlobalStyle />
+        <RouteSoftware />
+      </BrowserRouter>
+    </>
   )
 }
-
-export default App

@@ -1,6 +1,6 @@
 import * as S from "./styles"
 
-export function Home() {
+export function Explorar() {
     return (
         <S.Section>
             
