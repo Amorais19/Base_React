@@ -6,7 +6,6 @@ import * as S from "./styles"
 export function Layout() {
     return (
         <>
-        {}
             <div style={{ backgroundImage: `url(${fundo})`, backgroundSize: 'cover'}}>
                 <ComponentHeader />
                 <S.Fundo>

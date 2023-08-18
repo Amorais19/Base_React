@@ -9,9 +9,11 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Vollkorn SC', serif;
     box-sizing: border-box;
   }
-  body {
+  
+body {
     overflow-y: hidden;
-  }
+}
+
 `
 
 export const colors = {
