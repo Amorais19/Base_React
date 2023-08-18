@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Header = styled.header`
-    height: 6rem;
+    height: 7rem;
     text-align: center;
     img {
         height: 100%;

@@ -7,13 +7,14 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     border: 0;
     font-family: 'Vollkorn SC', serif;
-    font-size: 40;
     box-sizing: border-box;
+  }
+  body {
+    overflow-y: hidden;
   }
 `
 
 export const colors = {
-  primary: "#3F8A9B",
-  black: "#000",
-  white: "#fff"
+  white: "#fff",
+  black: "rgba(0,0,0,0.4)"
 }
