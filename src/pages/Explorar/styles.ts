@@ -15,30 +15,29 @@ export const Section=styled.section`
         padding: 1rem;
         text-align: justify;
         font-size: 25px;
-    };
+    }
 
-    p {
+    #co {
         text-indent: 20px;
     }
 
     div {
+        display: grid;
+        grid-template-columns: auto auto;
         text-align: center;
+        padding-bottom: 1.5rem;
+        
+        p {
+            padding-top: 2rem;
+        }
 
         a {
-                text-decoration: none;
-                color: ${colors.white};
-                font-size: 40px;
-                font-weight: bold;
-                padding: 3rem;
+            text-decoration: none;
+            color: ${colors.white};
+            font-size: 40px;
+            font-weight: bold;
         }
-    }
 
-    #co {
-        padding-top: 2rem;
-    }
-
-    #lo {
-        padding: 1.5rem;
     }
 
     min-height: calc(100vh - 10rem);
