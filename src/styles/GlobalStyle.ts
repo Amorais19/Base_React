@@ -10,10 +10,9 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   
-body {
-    overflow-y: hidden;
-}
-
+  body {
+      overflow-y: hidden;
+  } 
 `
 
 export const colors = {
