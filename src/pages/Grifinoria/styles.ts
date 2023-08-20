@@ -7,7 +7,6 @@ export const Section=styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1rem;
 
     section {
         background-color: ${colors.black};
@@ -15,20 +14,20 @@ export const Section=styled.section`
         padding: 1rem;
         text-align: justify;
         font-size: 25px;
+        
     }
 
-    div {
+    #so {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding-bottom: 0.5rem;
+    }
 
-        #co {
+    #co {
             font-size: 40px;
             font-weight: bolder;
         }
-
-    }
 
     p {
         text-indent: 20px;
@@ -42,6 +41,26 @@ export const Section=styled.section`
         display: flex;
         justify-content: flex-end;
         height: 2rem;
+    }
+
+    #ce {
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    #ca {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        padding-top: 2rem;
+
+        #pi {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     min-height: calc(100vh - 10rem);
