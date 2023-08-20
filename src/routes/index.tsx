@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { PageLayout, PageHome, PageExplorar, PageGrifinoria, PageSonserina } from "../pages"
+import { PageLayout, PageHome, PageExplorar, PageGrifinoria, PageSonserina, PageCorvinal, PageLufaLufa } from "../pages"
 
 export function RouteSoftware() {
     return (
@@ -9,6 +9,8 @@ export function RouteSoftware() {
                 <Route path="/explorar" element={<PageExplorar/>} />
                 <Route path="/grifinoria" element={<PageGrifinoria/>} />
                 <Route path="/sonserina" element={<PageSonserina/>} />
+                <Route path="/corvinal" element={<PageCorvinal/>} />
+                <Route path="/lufalufa" element={<PageLufaLufa/>} />
             </Route>
         </Routes>
     )

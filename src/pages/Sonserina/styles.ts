@@ -38,5 +38,11 @@ export const Section=styled.section`
         padding-left: 1.5rem;
     }
 
+    a {
+        display: flex;
+        justify-content: flex-end;
+        height: 2rem;
+    }
+
     min-height: calc(100vh - 10rem);
 `
