@@ -64,4 +64,24 @@ export const Section=styled.section`
     }
 
     min-height: calc(100vh - 10rem);
+
+    @media(max-width: 740px) {
+        section {
+            width: 90%;
+        }
+
+        #so {
+            justify-content: space-between;
+
+            img {
+                width: 10%;
+            }
+        }
+    }
+
+    @media(max-width: 660px) {
+        section {
+            font-size: 22px;
+        }
+    }
 `

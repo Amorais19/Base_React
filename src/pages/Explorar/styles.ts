@@ -41,4 +41,19 @@ export const Section=styled.section`
     }
 
     min-height: calc(100vh - 10rem);
+
+    @media(max-width: 770px) {
+        section {
+            font-size: 22px;
+            width: 90%;
+        }
+
+        div {
+            grid-template-columns: auto;
+        }
+
+        a {
+            font-size: 37px;
+        }
+    }
 `

@@ -21,4 +21,8 @@ export const Section=styled.section`
         }
 
     }
+
+    @media(max-width: 460px) {
+        font-size: 22px
+    }
 `
