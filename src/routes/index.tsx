@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { AdmPage, PageCadastrar, PageLayout, PageHome, PageExplorar, PageGrifinoria, PageSonserina, PageCorvinal, PageLufaLufa } from "../pages"
+import { AdmPage, PageCadastrar, PageLogin, PageLayout, PageHome, PageExplorar, PageGrifinoria, PageSonserina, PageCorvinal, PageLufaLufa } from "../pages"
 import ProtectedRoute from "./ProtectedRoute"
 
 export function RouteSoftware() {
@@ -8,6 +8,7 @@ export function RouteSoftware() {
             <Route element={<PageLayout/>} >
                 <Route path="/" element={<PageHome/>} />
                 <Route path="/cadastrar" element={<PageCadastrar/>} />
+                <Route path="/login" element={<PageLogin/>}></Route>
                 <Route path="/explorar" element={<PageExplorar/>} />
                 <Route path="/grifinoria" element={<PageGrifinoria/>} />
                 <Route path="/sonserina" element={<PageSonserina/>} />
