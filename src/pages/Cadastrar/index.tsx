@@ -6,12 +6,11 @@ import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
 
 import * as S from "./styles";
-import { ButtonComponent } from "components";
 import { IErrorResponse, IUser } from "../../interfaces/user.interface";
 import { AxiosError } from "axios";
 import { apiUser } from "../../services/data";
 
-const Cadastrar = () => {
+export function Cadastrar() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState<IUser>({
     name: '',
@@ -67,10 +66,9 @@ const Cadastrar = () => {
         </div>
         <p>
           Já possui conta? <Link to="/login">Faça o login</Link>
-          <ButtonComponent>Salvar</ButtonComponent>
+          <button type="submit">Salvar</button>
         </p>
       </form>
     </S.Section>
   );
 };
-export default Cadastrar;

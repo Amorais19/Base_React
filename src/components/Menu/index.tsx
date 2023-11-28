@@ -2,7 +2,7 @@ import { FcReuse } from "react-icons/fc";
 import { GrLogout } from "react-icons/gr";
 import * as S from "./styles"
 import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "hooks/authHook";
+import { useAuth } from "../../hooks/authHook";
 
 const Menu = () => {
     const { user, signOut } = useAuth()
@@ -12,7 +12,7 @@ const Menu = () => {
         navigate('/login')
     }
     return (
-        <S.Cabeçalho>
+        <S.Cabecalho>
             <picture>
                 <Link to="/">
                     <FcReuse />
@@ -38,7 +38,7 @@ const Menu = () => {
                     )
                 }
             </nav>
-        </S.Cabeçalho>
+        </S.Cabecalho>
     );
 };
 export default Menu;

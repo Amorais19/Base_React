@@ -5,7 +5,6 @@ import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
 
 import * as S from "./styles";
-import { ButtonComponent } from "components";
 import { useAuth } from "../../hooks/authHook";
 import { IErrorResponse, IUser } from "../../interfaces/user.interface";
 import { AxiosError } from "axios";
@@ -58,11 +57,9 @@ export function Login() {
         </div>
         <p>
           Não possui conta? <Link to="/cadastrar">Cadastre-se</Link>
-          <ButtonComponent>Entrar</ButtonComponent>
+          <button type="submit">Entrar</button>
         </p>
       </form>
     </S.Section>
   );
 };
-
-export default Login;

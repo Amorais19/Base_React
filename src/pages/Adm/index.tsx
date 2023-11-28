@@ -1,10 +1,10 @@
 import * as S from "./styles";
 
-export function Adm() => {
+const Adm = () => {
   return (
-    <S.Adm>
+    <S.Section>
       Área Administrativa
-    </S.Adm>
+    </S.Section>
   );
 };
 
