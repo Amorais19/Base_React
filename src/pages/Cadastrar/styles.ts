@@ -37,13 +37,9 @@ export const Section = styled.section`
         background-color: transparent;
       }
     }
-    p {
-      margin-top: 1rem;
-      p {
-        text-decoration: none;
-        color: ${colors.black};
-        font-weight: bold;
-      }
+    button {
+      background-color: transparent;
+      cursor: pointer;
     }
   }
 `

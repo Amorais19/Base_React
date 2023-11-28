@@ -57,6 +57,8 @@ export function Login() {
         </div>
         <p>
           Não possui conta? <Link to="/cadastrar">Cadastre-se</Link>
+        </p>
+        <p id="but">
           <button type="submit">Entrar</button>
         </p>
       </form>

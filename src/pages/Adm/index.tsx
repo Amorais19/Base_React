@@ -1,9 +1,12 @@
 import * as S from "./styles";
 
-const Adm = () => {
+export function Adm() {
   return (
     <S.Section>
-      Área Administrativa
+        <p>Agora sim você está pronto para conhecer nosso universo.</p>
+        <nav>
+            <a href="/explorar">explorar</a>
+        </nav>
     </S.Section>
   );
 };
