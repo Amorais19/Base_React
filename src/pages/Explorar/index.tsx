@@ -17,6 +17,7 @@ export function Explorar() {
                         <p><a href="/sonserina">Sonserina</a></p>
                         <p><a href="/corvinal">Corvinal</a></p>
                         <p><a href="/lufalufa">Lufa-Lufa</a></p>
+                        
                     </div>
                 </section>
             </S.Section>
