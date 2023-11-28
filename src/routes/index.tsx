@@ -21,4 +21,3 @@ export function RouteSoftware() {
         </Routes>
     )
 }
-/*ygvuc*/

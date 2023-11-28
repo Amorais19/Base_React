@@ -39,7 +39,7 @@ export const Section = styled.section`
     }
     p {
       margin-top: 1rem;
-      a {
+      p {
         text-decoration: none;
         color: ${colors.black};
         font-weight: bold;
