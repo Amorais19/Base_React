@@ -9,13 +9,13 @@ export function RouteSoftware() {
                 <Route path="/" element={<PageHome/>} />
                 <Route path="/cadastrar" element={<PageCadastrar/>} />
                 <Route path="/login" element={<PageLogin/>}></Route>
-                <Route path="/explorar" element={<PageExplorar/>} />
                 <Route path="/grifinoria" element={<PageGrifinoria/>} />
                 <Route path="/sonserina" element={<PageSonserina/>} />
                 <Route path="/corvinal" element={<PageCorvinal/>} />
                 <Route path="/lufalufa" element={<PageLufaLufa/>} />
                 <Route element={<ProtectedRoute />}>
                     <Route path="/adm" element={<AdmPage />} />
+                    <Route path="/explorar" element={<PageExplorar/>} />
                 </Route>
             </Route>
         </Routes>
